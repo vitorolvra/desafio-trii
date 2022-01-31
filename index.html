@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Trii</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-container">
+        <div class="second-container">
+            <h1 class="title">Peça seu orçamento agora mesmo!</h1>
+            <form class="form">
+                <input class="campo" id="nome" type="text" placeholder="Nome" maxlength="50" minlength="2">
+                <input class="campo" id="email" type="email" placeholder="Email" maxlength="50">
+                <input class="campo" id="tel" type="tel" placeholder="Telefone" maxlength="14">
+                <input class="campo" id="idmenu" type="text" placeholder="Escolha o serviço que deseja" list="menu">
+                <datalist id="menu">
+                    <option>Serviço 1</option>
+                    <option>Serviço 2</option>
+                    <option>Serviço 3</option>
+                    <option>Serviço 4</option>
+                </datalist>
+                <textarea name="message" class="campo" id="message" autocomplete="off" maxlength="300" placeholder="Mensagem"></textarea>
+                <button class="btn_submit" id="button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body> 
+</html>
